@@ -1,0 +1,12 @@
+{
+  "demo_version": "0.3.2",
+  "workbook_sha256": "33573d72b238baab6c96716912a113ea0ea36da8c71b8e09f44e40527981424f",
+  "validated_artifact_commit": "465b598937632220c40edfecb42b986db8fded33",
+  "accepted_report_date": "2026-11-05",
+  "environment": "Windows desktop Excel and desktop Outlook; exact builds not supplied",
+  "evidence_type": "Tester-reported runtime acceptance after pre-open hash verification",
+  "excel_desktop_compile": "PASS",
+  "main_workflow": "PASS",
+  "coverage_record": "validation/phase-3-results.md",
+  "remaining_coverage": "validation/test-scenarios.md"
+}

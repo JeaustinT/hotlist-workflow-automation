@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1360" height="1160" viewBox="0 0 1360 1160" role="img" aria-labelledby="title desc">
+<title id="title">Hotlist Workflow Automation architecture</title><desc id="desc">Input passes through validation, classification, historical lookup, grouping and allocation. The assigned queue supports summary, progress, Outlook drafts and history export.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="#526779"/></marker></defs>
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,Helvetica,sans-serif} .title{font-size:32px;font-weight:700} .sub{font-size:18px} .label{font-size:19px;font-weight:700} .body{font-size:17px} .small{font-size:15px}</style>
+<text x="40" y="54" class="title" fill="#17324D" text-anchor="start">A repeatable workflow with a shared working queue</text>
+<text x="40" y="88" class="sub" fill="#526779" text-anchor="start">Configuration and history inform preparation; analysts work directly in Assigned Work.</text>
+<rect x="475" y="126" width="380" height="58" rx="10" fill="#EDF3FA" stroke="#D6E0E8"/>
+<text x="665.0" y="161.0" class="body" fill="#17324D" text-anchor="middle">Raw Hotlist</text>
+<path d="M665 184V214" fill="none" stroke="#526779" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="475" y="226" width="380" height="58" rx="10" fill="#EDF3FA" stroke="#D6E0E8"/>
+<text x="665.0" y="261.0" class="body" fill="#17324D" text-anchor="middle">Input Validation</text>
+<path d="M665 284V314" fill="none" stroke="#526779" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="475" y="326" width="380" height="58" rx="10" fill="#EDF3FA" stroke="#D6E0E8"/>
+<text x="665.0" y="361.0" class="body" fill="#17324D" text-anchor="middle">Scope &amp; Media Classification</text>
+<path d="M665 384V414" fill="none" stroke="#526779" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="475" y="426" width="380" height="58" rx="10" fill="#EDF3FA" stroke="#D6E0E8"/>
+<text x="665.0" y="461.0" class="body" fill="#17324D" text-anchor="middle">Historical Lookup</text>
+<path d="M665 484V514" fill="none" stroke="#526779" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="475" y="526" width="380" height="58" rx="10" fill="#EDF3FA" stroke="#D6E0E8"/>
+<text x="665.0" y="561.0" class="body" fill="#17324D" text-anchor="middle">Group Formation</text>
+<path d="M665 584V614" fill="none" stroke="#526779" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="475" y="626" width="380" height="58" rx="10" fill="#EDF3FA" stroke="#D6E0E8"/>
+<text x="665.0" y="661.0" class="body" fill="#17324D" text-anchor="middle">Workload Allocation Engine</text>
+<path d="M665 684V714" fill="none" stroke="#526779" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="475" y="726" width="380" height="58" rx="10" fill="#147D69" stroke="#D6E0E8"/>
+<text x="665.0" y="761.0" class="body" fill="white" text-anchor="middle">Assigned Work</text>
+<rect x="40" y="126" width="300" height="70" rx="10" fill="#F5F7FA" stroke="#D6E0E8"/>
+<text x="190.0" y="167.0" class="body" fill="#17324D" text-anchor="middle">Control: availability + weights</text>
+<path d="M340 161H399V255H461" fill="none" stroke="#526779" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M399 255V655H461" fill="none" stroke="#526779" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="40" y="326" width="300" height="58" rx="10" fill="#F5F7FA" stroke="#D6E0E8"/>
+<text x="190.0" y="361.0" class="body" fill="#17324D" text-anchor="middle">Media reference + fallback</text>
+<path d="M340 355H461" fill="none" stroke="#526779" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="1010" y="326" width="310" height="58" rx="10" fill="#FFF6E9" stroke="#D6E0E8"/>
+<text x="1165.0" y="361.0" class="body" fill="#17324D" text-anchor="middle">Exceptions &amp; Review</text>
+<path d="M855 355H996" fill="none" stroke="#526779" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M665 784V830H205V865" fill="none" stroke="#526779" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M665 830V865" fill="none" stroke="#526779" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M665 830H1135V865" fill="none" stroke="#526779" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="40" y="880" width="330" height="58" rx="10" fill="#EDF3FA" stroke="#D6E0E8"/>
+<text x="205.0" y="915.0" class="body" fill="#17324D" text-anchor="middle">Assignment Summary</text>
+<rect x="500" y="880" width="330" height="58" rx="10" fill="#EDF3FA" stroke="#D6E0E8"/>
+<text x="665.0" y="915.0" class="body" fill="#17324D" text-anchor="middle">Progress Updates</text>
+<rect x="970" y="880" width="330" height="58" rx="10" fill="#EDF3FA" stroke="#D6E0E8"/>
+<text x="1135.0" y="915.0" class="body" fill="#17324D" text-anchor="middle">Inventory History</text>
+<path d="M205 938V977" fill="none" stroke="#526779" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="40" y="990" width="330" height="58" rx="10" fill="#F0F8F5" stroke="#D6E0E8"/>
+<text x="205.0" y="1025.0" class="body" fill="#17324D" text-anchor="middle">Outlook Draft</text>
+<path d="M830 909H956" fill="none" stroke="#526779" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M1135 938V977" fill="none" stroke="#526779" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="970" y="990" width="330" height="58" rx="10" fill="#F0F8F5" stroke="#D6E0E8"/>
+<text x="1135.0" y="1025.0" class="body" fill="#17324D" text-anchor="middle">History Export (.xlsx)</text>
+<path d="M1300 909H1336V455H869" fill="none" stroke="#526779" stroke-width="2" stroke-dasharray="5 5" marker-end="url(#arrow)"/>
+<text x="1110" y="433" class="small" fill="#526779" text-anchor="middle">Prior invoices + owners</text>
+<text x="40" y="1095" class="sub" fill="#17324D" text-anchor="start">Excel/VBA handles the desktop workflow; Outlook opens a draft for human review.</text>
+<text x="40" y="1126" class="small" fill="#526779" text-anchor="start">Python tooling builds and validates the synthetic demo. It is not part of operational invoice preparation.</text>
+</svg>

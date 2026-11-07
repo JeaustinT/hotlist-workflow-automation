@@ -1,0 +1,39 @@
+# Confidential inputs and local analysis must remain outside this repository.
+/attachments/
+/work/
+/source-material/
+/confidential/
+*.zip
+*.7z
+*.xlsx
+*.xls
+*.xlsb
+*.xlsm
+*.csv
+*.tsv
+*.bas
+*.cls
+*.frm
+*.frx
+
+# Future reviewed fixtures and VBA may be tracked only in designated locations.
+!/demo/sample-data/*.csv
+!/src/vba/*.bas
+!/src/vba/*.cls
+!/src/vba/*.frm
+!/src/vba/*.frx
+
+# Future demo workbook requires an explicit reviewed exception.
+~$*
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+__pycache__/
+.env
+.env.*
+
+# Reviewed clean synthetic Phase 3 artifacts.
+!/demo/Hotlist_Workflow_Automation_Demo.xlsm
+!/demo/sample-data/Sample_Raw_Hotlist.xlsx
+/tools/.vba-build.bin

@@ -1,0 +1,34 @@
+{
+  "demo_version": "0.3.2",
+  "workbook_sha256": "33573d72b238baab6c96716912a113ea0ea36da8c71b8e09f44e40527981424f",
+  "vba_project_sha256": "561c06317bdb957b64e9fa680a0bc20cdae4a0593099b4edb71ef91bcd97e35f",
+  "modules": {
+    "DemoUtilities": {
+      "match": true,
+      "normalized_source_sha256": "66df84a934380e16ae22721fa0583592809af130e4241b5aea4b8c8d61e4ffed",
+      "normalized_embedded_sha256": "66df84a934380e16ae22721fa0583592809af130e4241b5aea4b8c8d61e4ffed",
+      "direct_decompression_match": true
+    },
+    "HistoryManagement": {
+      "match": true,
+      "normalized_source_sha256": "63c296a54eced68e9d2ae1b9a701811b0daad38dd7ae5be94283983f5e8efee6",
+      "normalized_embedded_sha256": "63c296a54eced68e9d2ae1b9a701811b0daad38dd7ae5be94283983f5e8efee6",
+      "direct_decompression_match": true
+    },
+    "HotlistProcessing": {
+      "match": true,
+      "normalized_source_sha256": "ef787516d5edcb6052eee84e48be98f04daec95f8b34bb05e8f62d61a8b6452d",
+      "normalized_embedded_sha256": "ef787516d5edcb6052eee84e48be98f04daec95f8b34bb05e8f62d61a8b6452d",
+      "direct_decompression_match": true
+    },
+    "OfficeIntegration": {
+      "match": true,
+      "normalized_source_sha256": "7f7d0ed050ec942b7e15c53a725f471bdb29957dcf9572ba9a242f8228f0ee31",
+      "normalized_embedded_sha256": "7f7d0ed050ec942b7e15c53a725f471bdb29957dcf9572ba9a242f8228f0ee31",
+      "direct_decompression_match": true
+    }
+  },
+  "stale_identifier_checks": "PASS",
+  "excel_desktop_compile": "PASS",
+  "desktop_acceptance_evidence": "validation/desktop-acceptance.json"
+}
